@@ -1,0 +1,58 @@
+body {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+header {
+    text-align: center;
+    margin: 50px;
+}
+
+header h1 {
+    font-family: "Lobster";
+}
+
+button {
+    margin:10px auto;
+}
+
+hr {
+    height: 3px !important;
+    width:auto;
+    color: aquamarine;
+}
+form > div {
+    margin: 10px auto;
+}
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sticky {
+    margin: 20px;
+}
+
+.sticky div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.action {
+    text-align: right;
+}
+
+button.w3-DONE {
+    background-color: darkgreen;
+}
+button.w3-TODO {
+    background-color: darkorange;
+}
+div.sticky.DONE,
+div.sticky.DONE input,
+div.sticky.DONE textarea {
+    background-color: gainsboro;
+}
+textarea {
+    padding: 15px 20px 20px 20px !important;
+    resize: vertical;
+}
